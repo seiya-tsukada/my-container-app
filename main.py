@@ -5,9 +5,9 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def hello_world():
+def index():
     return "Hello main application"
 
 @app.route("/sub")
-def hello_world():
+def sub():
     return "Hello sub application"
