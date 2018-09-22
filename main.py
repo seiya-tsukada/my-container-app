@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "Hello main application"
+    return "Hello main blue application"
 
 @app.route("/sub")
 def hello_world():
-    return "Hello sub application"
+    return "Hello sub blue application"
