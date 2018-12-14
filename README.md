@@ -4,6 +4,12 @@
 
 ・AWS CodeBuild
 
+## use docker run
+
+```
+docker run -d -e FLASK_APP=/var/app/main.py [image_name]
+```
+
 ## start command
 
 ```
