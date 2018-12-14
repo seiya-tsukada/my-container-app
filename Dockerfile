@@ -4,7 +4,6 @@ ARG project_dir="/var/app/"
 
 RUN yum -y install python-devel python-setuptools
 RUN easy_install pip
-RUN pip install -r requirements.txt
 
 # Create Project Directory
 RUN mkdir ${project_dir}
