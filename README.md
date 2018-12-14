@@ -7,7 +7,7 @@
 ## use docker run
 
 ```
-docker run -d -e FLASK_APP=/var/app/main.py [image_name]
+docker run -d -p 8080:80 -e FLASK_APP=/var/app/main.py [image_name]
 ```
 
 ## start command
