@@ -1,5 +1,9 @@
 # my_container_app
 
+## Build Platform
+
+・AWS CodeBuild
+
 ## start command
 
 ```
