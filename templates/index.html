@@ -1,0 +1,25 @@
+<html>
+  <head></head>
+  <title>index</title>
+  <body>
+
+    <div>
+
+        hello index page<br />
+
+    </div>
+
+    <div>
+
+    <table border="1" width="100">
+      {% for k, v in req_info.items() %}
+        <tr>
+        <th>{{ k }}</th>
+        <th>{{ v }}</th>
+        </tr>
+      {% endfor %}
+    </table>
+
+    </div>
+  </body>
+</html>
