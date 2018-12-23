@@ -10,6 +10,7 @@ RUN mkdir ${project_dir}
  
 # ADD
 ADD ./main.py ${project_dir}
+ADD ./templates ${project_dir}
 ADD ./requirements.txt ${project_dir}
 
 WORKDIR ${project_dir}
