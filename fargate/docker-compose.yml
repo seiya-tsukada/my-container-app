@@ -1,0 +1,14 @@
+version: "3"
+services:
+  sample_ap:
+    image: 336295206532.dkr.ecr.ap-northeast-1.amazonaws.com/whiteray19-repo:latest
+    ports:
+      - "80:80"
+    environment: 
+      FLASK_APP: "/var/app/main.py"
+    logging:
+      driver: awslogs
+      options: 
+        awslogs-group: /ecs/sample-ap
+        awslogs-region: ap-northeast-1
+        awslogs-stream-prefix: ecs
